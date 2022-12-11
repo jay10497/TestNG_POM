@@ -48,8 +48,7 @@ public class HomePageTest extends TestBase {
 	public void verifyContactsLinkTest(){
 		testUtil.switchToFrame();
 		contactsPage = homePage.clickOnContactsLink();
-	}
-	
+	}	
 	
 	
 	@AfterMethod
